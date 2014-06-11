@@ -3,22 +3,27 @@
 }
 
 .circle-image {
- margin:0 auto;
+  margin: 0 auto;
   position: relative;
-  width:50%;
- 
+  width: 50%;
+
   img {
-    margin:0 auto;
+    margin: 0 auto;
     position: relative;
-    display:block;
+    display: block;
     border-radius: 9999px;
     border: solid #444 5px;
   }
 }
 
-
-
 ul {
-  list-style:none;
+  list-style: none;
+  li a {
+    font-size: 20px;
+  }
+}
 
+p a {
+  font-weight: bold;
+  text-decoration: underline;
 }
